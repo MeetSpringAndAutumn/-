@@ -1,0 +1,113 @@
+.w {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    position: relative;
+    height: 103px;
+    border-bottom: 2px solid #4a53f5;
+}
+
+header .r {
+    position: absolute;
+    right: 100px;
+    bottom: 2px;
+    float: right;
+}
+
+.main {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.main .box {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.main .w {
+    border: 1px solid #ccc;
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+}
+
+.main .box table tr {
+    display: block;
+    margin: 30px 0px;
+}
+
+.main .box table .outl {
+    width: 242px;
+    height: 37px;
+    outline: 1px solid #ccc;
+}
+
+.login {
+    position: relative;
+    left: 27px;
+    width: 242px;
+    height: 37px;
+    background-color: #4ad6f5;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    height: 335px;
+    margin-top: 30px;
+    padding-top: 30px;
+    color: rgb(155, 151, 151);
+}
+
+.footer a {
+    color: rgb(155, 151, 151);
+}
+
+.mod_help {
+    height: 135px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.mod_help dl {
+    float: left;
+    width: 230px;
+}
+
+.mod_help dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.mod_help dl:last-child {
+    height: 135px;
+    width: 230px;
+}
+
+.mod_help dl dd {
+    font-size: 10px;
+}
+
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+    font-size: 10px;
+    color: #ccc;
+}
+
+.links a {
+    color: #ccc;
+}
+
+.copyright {
+    font-size: 10px;
+    color: #ccc;
+}

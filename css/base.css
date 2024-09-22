@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+button,
+input {
+    border: 0px;
+    outline: none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(29, 44, 249);
+}

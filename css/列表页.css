@@ -1,0 +1,95 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 30px;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+.sk_bd ul li {
+    overflow: hidden;
+    margin-right: 13px;
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #4a53f5;
+}
+
+.sk_bd ul li .box h1 {
+    display: inline-block;
+    margin-right: 10px;
+    color: red;
+}
+
+.sk_bd ul li .box h4 {
+    display: inline-block;
+    text-decoration: line-through;
+    color: rgb(157, 150, 141);
+}
+
+.sk_bd ul li .box button {
+    width: 290px;
+    height: 50px;
+    background-color: #f54a53;
+    font-size: large;
+    color: white;
+}
+
+.sk_bd ul li .box .intro {
+    margin-top: 22px;
+    font-size: small;
+}
+
+.sk_bd ul li .box img {
+    width: 290px;
+
+}
+
+.sk_bd ul li .box button:hover {
+    /* width: 300px;
+    height: 55px; */
+    font-size: larger;
+}
