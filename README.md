@@ -1,6 +1,7 @@
 1.使用 css3盒子模型 box-sizing: border-box;
 
-2.![image](https://github.com/user-attachments/assets/6aa5fd0c-c4cd-43a8-a7e6-26cda26aab0c)
+2.
+![image](https://github.com/user-attachments/assets/6aa5fd0c-c4cd-43a8-a7e6-26cda26aab0c)
 
 点击手机跳转到列表页
 
@@ -22,7 +23,8 @@
 
 7.布局用了层定位与浮动，这么精美的页面相信您也能看出来挺复杂的。
 
-8.注册页用了table，![Uploading image.png…]()
+8.注册页用了table，![image](https://github.com/user-attachments/assets/045a76cb-a912-48a7-9e01-7b90c678b46c)
+
 
 9.这个地方用了id选择器，一般我喜欢用类选择器。
 
